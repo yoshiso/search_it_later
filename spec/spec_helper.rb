@@ -57,6 +57,12 @@ Spork.prefork do
     config.after(:each) do
       DatabaseCleaner.clean
     end
+
+    #sunspotのテストのための設定
+    config.include SunspotMatchers
+    config.before do
+      Sunspot.session = SunspotMatchers::SunspotSessionSpy.new(Sunspot.session)
+    end
   end
 end
 

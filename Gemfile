@@ -39,6 +39,7 @@ group :development, :test do
   gem "launchy"
   gem 'faker', '1.0.1'
   gem 'factory_girl_rails', '4.1.0'
+  gem 'sunspot_matchers'
 end
 
 
