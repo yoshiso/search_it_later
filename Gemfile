@@ -38,11 +38,9 @@ group :development, :test do
   gem "capybara-webkit", "1.0.0"
   gem "launchy"
   gem 'faker', '1.0.1'
-end
-
-group :test do
   gem 'factory_girl_rails', '4.1.0'
 end
+
 
 group :development do  
   gem 'capybara','2.1.0'  

@@ -13,4 +13,9 @@
 
 # Ignore all logfiles and tempfiles.
 /log/*.log
+/log/*.log.lck
 /tmp
+
+# Ignore Sunspot file
+/solr/data/*
+/solr/pids/*
