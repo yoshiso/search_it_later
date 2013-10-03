@@ -1,0 +1,248 @@
+10 03, 2013 11:18:35 午後 org.apache.solr.core.SolrResourceLoader locateSolrHome
+情報: JNDI not configured for solr (NoInitialContextEx)
+10 03, 2013 11:18:35 午後 org.apache.solr.core.SolrResourceLoader locateSolrHome
+情報: using system property solr.solr.home: /Users/yoshi/develope/rails_projects/search_it_later/solr
+10 03, 2013 11:18:35 午後 org.apache.solr.core.SolrResourceLoader <init>
+情報: Solr home set to '/Users/yoshi/develope/rails_projects/search_it_later/solr/'
+10 03, 2013 11:18:35 午後 org.apache.solr.servlet.SolrDispatchFilter init
+情報: SolrDispatchFilter.init()
+10 03, 2013 11:18:35 午後 org.apache.solr.core.SolrResourceLoader locateSolrHome
+情報: JNDI not configured for solr (NoInitialContextEx)
+10 03, 2013 11:18:35 午後 org.apache.solr.core.SolrResourceLoader locateSolrHome
+情報: using system property solr.solr.home: /Users/yoshi/develope/rails_projects/search_it_later/solr
+10 03, 2013 11:18:35 午後 org.apache.solr.core.CoreContainer$Initializer initialize
+情報: looking for solr.xml: /Users/yoshi/develope/rails_projects/search_it_later/solr/solr.xml
+10 03, 2013 11:18:35 午後 org.apache.solr.core.SolrResourceLoader locateSolrHome
+情報: JNDI not configured for solr (NoInitialContextEx)
+10 03, 2013 11:18:35 午後 org.apache.solr.core.SolrResourceLoader locateSolrHome
+情報: using system property solr.solr.home: /Users/yoshi/develope/rails_projects/search_it_later/solr
+10 03, 2013 11:18:35 午後 org.apache.solr.core.CoreContainer <init>
+情報: New CoreContainer: solrHome=/Users/yoshi/develope/rails_projects/search_it_later/solr/ instance=918833673
+10 03, 2013 11:18:35 午後 org.apache.solr.core.SolrResourceLoader <init>
+情報: Solr home set to '/Users/yoshi/develope/rails_projects/search_it_later/solr/'
+10 03, 2013 11:18:35 午後 org.apache.solr.core.SolrResourceLoader <init>
+情報: Solr home set to '/Users/yoshi/develope/rails_projects/search_it_later/solr/./'
+10 03, 2013 11:18:35 午後 org.apache.solr.core.SolrConfig initLibs
+情報: Adding specified lib dirs to ClassLoader
+10 03, 2013 11:18:35 午後 org.apache.solr.core.Config getLuceneVersion
+WARNING: the luceneMatchVersion is not specified, defaulting to LUCENE_24 emulation. You should at some point declare and reindex to at least 3.0, because 2.4 emulation is deprecated and will be removed in 4.0. This parameter will be mandatory in 4.0.
+10 03, 2013 11:18:35 午後 org.apache.solr.core.SolrConfig <init>
+情報: Using Lucene MatchVersion: LUCENE_24
+10 03, 2013 11:18:35 午後 org.apache.solr.core.SolrConfig <init>
+WARNING: Deprecated syntax found. <highlighting/> should move to <searchComponent/>
+10 03, 2013 11:18:35 午後 org.apache.solr.core.SolrConfig <init>
+情報: Loaded SolrConfig: solrconfig.xml
+10 03, 2013 11:18:35 午後 org.apache.solr.schema.IndexSchema readSchema
+情報: Reading Solr Schema
+10 03, 2013 11:18:36 午後 org.apache.solr.schema.IndexSchema readSchema
+情報: Schema name=sunspot
+10 03, 2013 11:18:36 午後 org.apache.solr.util.plugin.AbstractPluginLoader load
+情報: created string: org.apache.solr.schema.StrField
+10 03, 2013 11:18:36 午後 org.apache.solr.util.plugin.AbstractPluginLoader load
+情報: created tdouble: org.apache.solr.schema.TrieDoubleField
+10 03, 2013 11:18:36 午後 org.apache.solr.util.plugin.AbstractPluginLoader load
+情報: created rand: org.apache.solr.schema.RandomSortField
+10 03, 2013 11:18:36 午後 org.apache.solr.util.plugin.AbstractPluginLoader load
+情報: created : org.apache.solr.analysis.StandardTokenizerFactory
+10 03, 2013 11:18:36 午後 org.apache.solr.analysis.BaseTokenStreamFactory assureMatchVersion
+WARNING: StandardTokenizerFactory is using deprecated LUCENE_24 emulation. You should at some point declare and reindex to at least 3.0, because 2.x emulation is deprecated and will be removed in 4.0
+10 03, 2013 11:18:36 午後 org.apache.solr.util.plugin.AbstractPluginLoader load
+情報: created : org.apache.solr.analysis.StandardFilterFactory
+10 03, 2013 11:18:36 午後 org.apache.solr.analysis.BaseTokenStreamFactory assureMatchVersion
+WARNING: StandardFilterFactory is using deprecated LUCENE_24 emulation. You should at some point declare and reindex to at least 3.0, because 2.x emulation is deprecated and will be removed in 4.0
+10 03, 2013 11:18:36 午後 org.apache.solr.util.plugin.AbstractPluginLoader load
+情報: created : org.apache.solr.analysis.LowerCaseFilterFactory
+10 03, 2013 11:18:36 午後 org.apache.solr.analysis.BaseTokenStreamFactory assureMatchVersion
+WARNING: LowerCaseFilterFactory is using deprecated LUCENE_24 emulation. You should at some point declare and reindex to at least 3.0, because 2.x emulation is deprecated and will be removed in 4.0
+10 03, 2013 11:18:36 午後 org.apache.solr.util.plugin.AbstractPluginLoader load
+情報: created : org.apache.solr.analysis.PorterStemFilterFactory
+10 03, 2013 11:18:36 午後 org.apache.solr.util.plugin.AbstractPluginLoader load
+情報: created text: org.apache.solr.schema.TextField
+10 03, 2013 11:18:36 午後 org.apache.solr.util.plugin.AbstractPluginLoader load
+情報: created boolean: org.apache.solr.schema.BoolField
+10 03, 2013 11:18:36 午後 org.apache.solr.util.plugin.AbstractPluginLoader load
+情報: created date: org.apache.solr.schema.DateField
+10 03, 2013 11:18:36 午後 org.apache.solr.util.plugin.AbstractPluginLoader load
+情報: created sdouble: org.apache.solr.schema.SortableDoubleField
+10 03, 2013 11:18:36 午後 org.apache.solr.util.plugin.AbstractPluginLoader load
+情報: created sfloat: org.apache.solr.schema.SortableFloatField
+10 03, 2013 11:18:36 午後 org.apache.solr.util.plugin.AbstractPluginLoader load
+情報: created sint: org.apache.solr.schema.SortableIntField
+10 03, 2013 11:18:36 午後 org.apache.solr.util.plugin.AbstractPluginLoader load
+情報: created slong: org.apache.solr.schema.SortableLongField
+10 03, 2013 11:18:36 午後 org.apache.solr.util.plugin.AbstractPluginLoader load
+情報: created tint: org.apache.solr.schema.TrieIntField
+10 03, 2013 11:18:36 午後 org.apache.solr.util.plugin.AbstractPluginLoader load
+情報: created tfloat: org.apache.solr.schema.TrieFloatField
+10 03, 2013 11:18:36 午後 org.apache.solr.util.plugin.AbstractPluginLoader load
+情報: created tdate: org.apache.solr.schema.TrieDateField
+10 03, 2013 11:18:36 午後 org.apache.solr.util.plugin.AbstractPluginLoader load
+情報: created location: org.apache.solr.schema.LatLonType
+10 03, 2013 11:18:36 午後 org.apache.solr.schema.IndexSchema readSchema
+情報: default search field is text
+10 03, 2013 11:18:36 午後 org.apache.solr.schema.IndexSchema readSchema
+情報: query parser default operator is AND
+10 03, 2013 11:18:36 午後 org.apache.solr.schema.IndexSchema readSchema
+情報: unique key field: id
+10 03, 2013 11:18:36 午後 org.apache.solr.core.SolrCore <init>
+情報: [] Opening new SolrCore at /Users/yoshi/develope/rails_projects/search_it_later/solr/./, dataDir=/Users/yoshi/develope/rails_projects/search_it_later/solr/data/test/
+10 03, 2013 11:18:36 午後 org.apache.solr.core.JmxMonitoredMap <init>
+情報: No JMX servers found, not exposing Solr information with JMX.
+10 03, 2013 11:18:36 午後 org.apache.solr.core.SolrCore initListeners
+情報: [] Added SolrEventListener for newSearcher: org.apache.solr.core.QuerySenderListener{queries=[]}
+10 03, 2013 11:18:36 午後 org.apache.solr.core.SolrCore initListeners
+情報: [] Added SolrEventListener for firstSearcher: org.apache.solr.core.QuerySenderListener{queries=[{q=solr rocks,start=0,rows=10}, {q=static firstSearcher warming query from solrconfig.xml}]}
+10 03, 2013 11:18:36 午後 org.apache.solr.request.XSLTResponseWriter <init>
+WARNING: org.apache.solr.request.XSLTResponseWriter is deprecated. Please use the corresponding class in org.apache.solr.response
+10 03, 2013 11:18:36 午後 org.apache.solr.response.XSLTResponseWriter init
+情報: xsltCacheLifetimeSeconds=5
+10 03, 2013 11:18:36 午後 org.apache.solr.core.RequestHandlers initHandlersFromConfig
+情報: created standard: solr.SearchHandler
+10 03, 2013 11:18:36 午後 org.apache.solr.core.RequestHandlers initHandlersFromConfig
+情報: created dismax: solr.SearchHandler
+10 03, 2013 11:18:36 午後 org.apache.solr.core.RequestHandlers initHandlersFromConfig
+情報: created partitioned: solr.SearchHandler
+10 03, 2013 11:18:36 午後 org.apache.solr.core.RequestHandlers initHandlersFromConfig
+情報: created /spell: solr.SearchHandler
+10 03, 2013 11:18:36 午後 org.apache.solr.core.RequestHandlers initHandlersFromConfig
+情報: created tvrh: org.apache.solr.handler.component.SearchHandler
+10 03, 2013 11:18:36 午後 org.apache.solr.core.RequestHandlers initHandlersFromConfig
+情報: adding lazy requestHandler: org.apache.solr.handler.extraction.ExtractingRequestHandler
+10 03, 2013 11:18:36 午後 org.apache.solr.core.RequestHandlers initHandlersFromConfig
+情報: created /update/extract: org.apache.solr.handler.extraction.ExtractingRequestHandler
+10 03, 2013 11:18:36 午後 org.apache.solr.core.RequestHandlers initHandlersFromConfig
+情報: created /terms: org.apache.solr.handler.component.SearchHandler
+10 03, 2013 11:18:36 午後 org.apache.solr.core.RequestHandlers initHandlersFromConfig
+情報: adding lazy requestHandler: solr.SearchHandler
+10 03, 2013 11:18:36 午後 org.apache.solr.core.RequestHandlers initHandlersFromConfig
+情報: created /elevate: solr.SearchHandler
+10 03, 2013 11:18:36 午後 org.apache.solr.core.RequestHandlers initHandlersFromConfig
+情報: created /update: solr.XmlUpdateRequestHandler
+10 03, 2013 11:18:36 午後 org.apache.solr.core.RequestHandlers initHandlersFromConfig
+情報: created /update/javabin: solr.BinaryUpdateRequestHandler
+10 03, 2013 11:18:36 午後 org.apache.solr.core.RequestHandlers initHandlersFromConfig
+情報: created /analysis/document: solr.DocumentAnalysisRequestHandler
+10 03, 2013 11:18:36 午後 org.apache.solr.core.RequestHandlers initHandlersFromConfig
+情報: created /analysis/field: solr.FieldAnalysisRequestHandler
+10 03, 2013 11:18:36 午後 org.apache.solr.core.RequestHandlers initHandlersFromConfig
+情報: adding lazy requestHandler: solr.CSVRequestHandler
+10 03, 2013 11:18:36 午後 org.apache.solr.core.RequestHandlers initHandlersFromConfig
+情報: created /update/csv: solr.CSVRequestHandler
+10 03, 2013 11:18:36 午後 org.apache.solr.core.RequestHandlers initHandlersFromConfig
+情報: created /admin/: org.apache.solr.handler.admin.AdminHandlers
+10 03, 2013 11:18:36 午後 org.apache.solr.core.RequestHandlers initHandlersFromConfig
+情報: created /admin/ping: PingRequestHandler
+10 03, 2013 11:18:36 午後 org.apache.solr.core.RequestHandlers initHandlersFromConfig
+情報: created /debug/dump: solr.DumpRequestHandler
+10 03, 2013 11:18:36 午後 org.apache.solr.core.RequestHandlers initHandlersFromConfig
+情報: created /mlt: solr.MoreLikeThisHandler
+10 03, 2013 11:18:36 午後 org.apache.solr.search.SolrIndexSearcher <init>
+情報: Opening Searcher@3657f986 main
+10 03, 2013 11:18:36 午後 org.apache.solr.update.CommitTracker <init>
+情報: commitTracker AutoCommit: disabled
+10 03, 2013 11:18:36 午後 org.apache.solr.handler.component.SpellCheckComponent inform
+情報: Initializing spell checkers
+10 03, 2013 11:18:36 午後 org.apache.solr.handler.component.SpellCheckComponent inform
+WARNING: No queryConverter defined, using default converter
+10 03, 2013 11:18:36 午後 org.apache.solr.handler.component.QueryElevationComponent inform
+情報: Loading QueryElevation from: /Users/yoshi/develope/rails_projects/search_it_later/solr/./conf/elevate.xml
+10 03, 2013 11:18:36 午後 org.apache.solr.handler.component.SearchHandler inform
+情報: Adding  component:org.apache.solr.handler.component.QueryComponent@2940b9ef
+10 03, 2013 11:18:36 午後 org.apache.solr.handler.component.SearchHandler inform
+情報: Adding  component:org.apache.solr.handler.component.FacetComponent@586f0f11
+10 03, 2013 11:18:36 午後 org.apache.solr.handler.component.SearchHandler inform
+情報: Adding  component:org.apache.solr.handler.component.MoreLikeThisComponent@63465272
+10 03, 2013 11:18:36 午後 org.apache.solr.handler.component.SearchHandler inform
+情報: Adding  component:org.apache.solr.handler.component.HighlightComponent@1dceed49
+10 03, 2013 11:18:36 午後 org.apache.solr.handler.component.SearchHandler inform
+情報: Adding  component:org.apache.solr.handler.component.StatsComponent@7c3c62e8
+10 03, 2013 11:18:36 午後 org.apache.solr.handler.component.SearchHandler inform
+情報: Adding  debug component:org.apache.solr.handler.component.DebugComponent@6081ad10
+10 03, 2013 11:18:36 午後 org.apache.solr.handler.component.SearchHandler inform
+情報: Adding  component:org.apache.solr.handler.component.QueryComponent@2940b9ef
+10 03, 2013 11:18:36 午後 org.apache.solr.handler.component.SearchHandler inform
+情報: Adding  component:org.apache.solr.handler.component.FacetComponent@586f0f11
+10 03, 2013 11:18:36 午後 org.apache.solr.handler.component.SearchHandler inform
+情報: Adding  component:org.apache.solr.handler.component.MoreLikeThisComponent@63465272
+10 03, 2013 11:18:36 午後 org.apache.solr.handler.component.SearchHandler inform
+情報: Adding  component:org.apache.solr.handler.component.HighlightComponent@1dceed49
+10 03, 2013 11:18:36 午後 org.apache.solr.handler.component.SearchHandler inform
+情報: Adding  component:org.apache.solr.handler.component.StatsComponent@7c3c62e8
+10 03, 2013 11:18:36 午後 org.apache.solr.handler.component.SearchHandler inform
+情報: Adding  debug component:org.apache.solr.handler.component.DebugComponent@6081ad10
+10 03, 2013 11:18:36 午後 org.apache.solr.handler.component.SearchHandler inform
+情報: Adding  component:org.apache.solr.handler.component.QueryComponent@2940b9ef
+10 03, 2013 11:18:36 午後 org.apache.solr.handler.component.SearchHandler inform
+情報: Adding  component:org.apache.solr.handler.component.FacetComponent@586f0f11
+10 03, 2013 11:18:36 午後 org.apache.solr.handler.component.SearchHandler inform
+情報: Adding  component:org.apache.solr.handler.component.MoreLikeThisComponent@63465272
+10 03, 2013 11:18:36 午後 org.apache.solr.handler.component.SearchHandler inform
+情報: Adding  component:org.apache.solr.handler.component.HighlightComponent@1dceed49
+10 03, 2013 11:18:36 午後 org.apache.solr.handler.component.SearchHandler inform
+情報: Adding  component:org.apache.solr.handler.component.StatsComponent@7c3c62e8
+10 03, 2013 11:18:36 午後 org.apache.solr.handler.component.SearchHandler inform
+情報: Adding  debug component:org.apache.solr.handler.component.DebugComponent@6081ad10
+10 03, 2013 11:18:36 午後 org.apache.solr.handler.component.SearchHandler inform
+情報: Adding  component:org.apache.solr.handler.component.QueryComponent@2940b9ef
+10 03, 2013 11:18:36 午後 org.apache.solr.handler.component.SearchHandler inform
+情報: Adding  component:org.apache.solr.handler.component.FacetComponent@586f0f11
+10 03, 2013 11:18:36 午後 org.apache.solr.handler.component.SearchHandler inform
+情報: Adding  component:org.apache.solr.handler.component.MoreLikeThisComponent@63465272
+10 03, 2013 11:18:36 午後 org.apache.solr.handler.component.SearchHandler inform
+情報: Adding  component:org.apache.solr.handler.component.HighlightComponent@1dceed49
+10 03, 2013 11:18:36 午後 org.apache.solr.handler.component.SearchHandler inform
+情報: Adding  component:org.apache.solr.handler.component.StatsComponent@7c3c62e8
+10 03, 2013 11:18:36 午後 org.apache.solr.handler.component.SearchHandler inform
+情報: Adding  component:org.apache.solr.handler.component.SpellCheckComponent@618926ef
+10 03, 2013 11:18:36 午後 org.apache.solr.handler.component.SearchHandler inform
+情報: Adding  debug component:org.apache.solr.handler.component.DebugComponent@6081ad10
+10 03, 2013 11:18:36 午後 org.apache.solr.handler.component.SearchHandler inform
+情報: Adding  component:org.apache.solr.handler.component.QueryComponent@2940b9ef
+10 03, 2013 11:18:36 午後 org.apache.solr.handler.component.SearchHandler inform
+情報: Adding  component:org.apache.solr.handler.component.FacetComponent@586f0f11
+10 03, 2013 11:18:36 午後 org.apache.solr.handler.component.SearchHandler inform
+情報: Adding  component:org.apache.solr.handler.component.MoreLikeThisComponent@63465272
+10 03, 2013 11:18:36 午後 org.apache.solr.handler.component.SearchHandler inform
+情報: Adding  component:org.apache.solr.handler.component.HighlightComponent@1dceed49
+10 03, 2013 11:18:36 午後 org.apache.solr.handler.component.SearchHandler inform
+情報: Adding  component:org.apache.solr.handler.component.StatsComponent@7c3c62e8
+10 03, 2013 11:18:36 午後 org.apache.solr.handler.component.SearchHandler inform
+情報: Adding  component:org.apache.solr.handler.component.TermVectorComponent@735b46ef
+10 03, 2013 11:18:36 午後 org.apache.solr.handler.component.SearchHandler inform
+情報: Adding  debug component:org.apache.solr.handler.component.DebugComponent@6081ad10
+10 03, 2013 11:18:36 午後 org.apache.solr.handler.component.SearchHandler inform
+情報: Adding  component:org.apache.solr.handler.component.TermsComponent@6d8e3013
+10 03, 2013 11:18:36 午後 org.apache.solr.core.QuerySenderListener newSearcher
+情報: QuerySenderListener sending requests to Searcher@3657f986 main
+10 03, 2013 11:18:36 午後 org.apache.solr.core.CoreContainer register
+情報: registering core: 
+10 03, 2013 11:18:36 午後 org.apache.solr.servlet.SolrDispatchFilter init
+情報: user.dir=/Users/yoshi/.rvm/gems/ruby-2.0.0-p247/gems/sunspot_solr-2.0.0/solr
+10 03, 2013 11:18:36 午後 org.apache.solr.servlet.SolrDispatchFilter init
+情報: SolrDispatchFilter.init() done
+10 03, 2013 11:18:36 午後 org.apache.solr.core.SolrCore execute
+情報: [] webapp=null path=null params={start=0&event=firstSearcher&q=solr+rocks&rows=10} hits=0 status=0 QTime=50 
+10 03, 2013 11:18:36 午後 org.apache.solr.core.SolrCore execute
+情報: [] webapp=null path=null params={event=firstSearcher&q=static+firstSearcher+warming+query+from+solrconfig.xml} hits=0 status=0 QTime=0 
+10 03, 2013 11:18:36 午後 org.apache.solr.core.QuerySenderListener newSearcher
+情報: QuerySenderListener done.
+10 03, 2013 11:18:36 午後 org.apache.solr.handler.component.SpellCheckComponent$SpellCheckerListener newSearcher
+情報: Loading spell index for spellchecker: default
+10 03, 2013 11:18:36 午後 org.apache.solr.core.SolrCore registerSearcher
+情報: [] Registered new searcher Searcher@3657f986 main
+10 03, 2013 11:18:36 午後 org.apache.solr.servlet.SolrServlet init
+情報: SolrServlet.init()
+10 03, 2013 11:18:36 午後 org.apache.solr.core.SolrResourceLoader locateSolrHome
+情報: JNDI not configured for solr (NoInitialContextEx)
+10 03, 2013 11:18:36 午後 org.apache.solr.core.SolrResourceLoader locateSolrHome
+情報: using system property solr.solr.home: /Users/yoshi/develope/rails_projects/search_it_later/solr
+10 03, 2013 11:18:36 午後 org.apache.solr.servlet.SolrServlet init
+情報: SolrServlet.init() done
+10 03, 2013 11:18:36 午後 org.apache.solr.core.SolrResourceLoader locateSolrHome
+情報: JNDI not configured for solr (NoInitialContextEx)
+10 03, 2013 11:18:36 午後 org.apache.solr.core.SolrResourceLoader locateSolrHome
+情報: using system property solr.solr.home: /Users/yoshi/develope/rails_projects/search_it_later/solr
+10 03, 2013 11:18:36 午後 org.apache.solr.servlet.SolrUpdateServlet init
+情報: SolrUpdateServlet.init() done
+10 03, 2013 11:18:39 午後 org.apache.solr.core.SolrCore close
+情報: []  CLOSING SolrCore org.apache.solr.core.SolrCore@7cb5d156

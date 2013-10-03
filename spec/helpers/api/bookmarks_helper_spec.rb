@@ -10,6 +10,6 @@ require 'spec_helper'
 #     end
 #   end
 # end
-describe Api::BookmarkHelper do
-  pending "add some examples to (or delete) #{__FILE__}"
+describe Api::BookmarksHelper do
+  #pending "add some examples to (or delete) #{__FILE__}"
 end
